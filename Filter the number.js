@@ -1,3 +1,3 @@
 var filterString = function (value) {
-  return +value.split("").filter(Number).join("");
+  return parseInt(value.replace(/[^\d]/g, ""));
 };
