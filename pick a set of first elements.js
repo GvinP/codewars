@@ -1,3 +1,3 @@
-function first(arr, n) {
-  return arr.splice(0, n || 1);
+function first(arr, n = 1) {
+  return arr.splice(0, n);
 }
