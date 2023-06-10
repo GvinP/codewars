@@ -1,0 +1,7 @@
+function padIt(str, n) {
+  "while";
+  return new Array(n)
+    .fill(0)
+    .reduce((acc, _, i) => (i % 2 ? [...acc, "*"] : ["*", ...acc]), [str])
+    .join("");
+}
